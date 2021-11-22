@@ -1,0 +1,58 @@
+*, ::after, ::before { box-sizing: border-box; }
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+}
+
+.nadpis {
+    font-family: 'Raleway', serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.hlavicka {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/island-hlavicka.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+nav {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+    list-style-type: none;
+}
+
+p {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.obrazek {
+    height: 250px;
+    width: 100%;
+    
+}
+
+.copy {
+    text-align: center;
+    color: gray;
+    margin: 0;
+    font-size: 10px;
+}
+
+a {
+    color: gray;
+}
+
+.titulek {
+    margin-left: 15px;
+}
