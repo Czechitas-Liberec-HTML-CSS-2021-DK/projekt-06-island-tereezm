@@ -29,18 +29,18 @@ nav {
     text-align: center;
     margin: 20px;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
 
-li {
-    color: gray;
-    border-bottom: solid;
-    border-bottom-width: thin;
-    margin: 10px;
-    padding-bottom: 5px;  
-}
 
 nav a {
     text-decoration: none;
+    color: gray;
+    border-bottom: solid;
+    margin: 10px;
+    padding-bottom: 5px;  
+    text-align: center;
 }
 
 p {
@@ -86,7 +86,27 @@ hr {
 footer {
 color: gray;
 background-color: lightgray;
-padding-top: 20px;
 font-size: 10px;
+padding: 20px;
+}
 
+@media (min-width: 480px) {
+
+nav {
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+nav a {
+    flex: 1 1;
+    margin: 0;
+    border: 1px solid;
+    padding: 5px;
+    border-color: lightgray; 
+}
+
+.obrazek {
+    height: 400px;
+}
+    
 }
