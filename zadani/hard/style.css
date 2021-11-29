@@ -104,6 +104,10 @@ font-size: 10px;
 padding: 20px;
 }
 
+.fotogalerie {
+    width: 100%;
+}
+
 @media (min-width: 480px) {
 
 nav {
@@ -132,7 +136,7 @@ nav a {
     overflow: hidden;
 }
 
-.obr:hover .obrazek {
+.obr:hover img {
     transform: scale(1.1);
     overflow: hidden;
 }
@@ -169,5 +173,25 @@ margin-top: 20px;
 p {
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.obrazky {
+    height: 350px;
+    position: relative;
+}
+.obrazky .copy {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: white;
+}
+
+.obrazky a {
+    color: white;
+    text-decoration:none;
+}
+
+.obrazky img {
+    height: 350px;
 }
 }
