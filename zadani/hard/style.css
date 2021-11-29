@@ -108,8 +108,8 @@ padding: 20px;
 
 nav {
     flex-direction: row;
-    margin-left: 20px;
-    margin-right: 20px;    
+    margin-left: 40px;
+    margin-right: 40px;    
 }
 nav a {
     flex: 1 1;
@@ -117,6 +117,7 @@ nav a {
     border: 1px solid;
     padding: 5px;
     border-color: lightgray; 
+    font-size: 15px;
 }
 
 .fotogalerie {
@@ -164,4 +165,9 @@ nav a {
 .popisek_obr .name {
 margin-top: 20px;
 }  
+
+p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
 }
